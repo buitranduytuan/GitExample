@@ -1,0 +1,22 @@
+Sử dụng VS Code:
+ Dùng phím Alt -> kích chuột để chọn nhiều dòng để viết code nhanh
+ Dùng li*5 để tạo 5 dòng li nhanh
+ Định dạng code có thể dùng chuột phải
+ Kiểm tra link đến các file đúng chưa thì Ctrl + chuột trái
+ Tới nơi định dạng CSS cho id hay class nhanh bằng cách Ctrl+chuột trái
+ Chỉnh màu sắc để code: File - Preference - Color Themes
+ Dùng bootstrap 4: b4- Ctrl Space
+ Xóa 1 dòng : Ctrl + Shift + K
+ Duplicate : Shift + Alt + Down or Shift + Alt + Up
+ Di chuyển dòng lên xuống: Alt + Up or Alt + Down
+ Chọn dòng hiện tại: Ctrl + L
+Bật tắt Live Server bằng cách nhập chuột vào thanh công cụ ở phía dưới
+Prettier - Code formatter: tự động định dạng code khi nhấn Save
+Đổi tên các function và variable bằng phím F2
+Có thể Cut Copy không cần bôi đen dòng đó
+Ctrl + Shift + O tìm khím các method, class, arttribute ,.. trong file đó
+Ctrl + 2 : tách ra 2 màn hình
+Các extension hay ở đây: https://webdesign-ideas.com/y-tuong/visual-studio-code-extension-hay-nhat/
+http://nhasachtinhoc.blogspot.com
+mongod --config "D:\App\MongoDB\config.txt"
+pass pgAdmin: 123456
