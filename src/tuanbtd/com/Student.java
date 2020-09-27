@@ -1,6 +1,6 @@
 package tuanbtd.com;
 
-public class Student {
+public class Student extends Person {
 	private String name;
 	private int age;
 
