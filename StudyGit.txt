@@ -1,0 +1,32 @@
+Sử dụng GIT
+Đẩy 1 project lên git:
+-> cd đến folder của project:
++ git init 
++ git add .
++ git commit-m" add comment"
++ git remote add origin http://github.com/.....
++ git push -u origin master
+-> Tới đây thì project của bạn đã được đưa lên GITHUB
+
+-> Lấy code từ github có sẵn
++ git clone linkcuaproject
+
+-> Liên quan đến branch
++ git branch      -liệt kê các branch hiện có
++ git branch "branchNameNew"  -tạo 1 branch mới
++ git checkout "branch name" -chuyển qua branch khác
+-- tại đây có thể chỉnh sửa code và đưa code lên lại
++ git push origin develop
+
+-> Merge branch lại vs nhau:
++ git merge branchNeedToMerge
++ chú ý trường hợp confict (nội dung các file khác nhau nên không thể merge được)
+
+-> Update code từ trên Git về:
++ git pull
+
+-> Update code lên Git: làm tương tự như thêm file mới
+-- lưu ý trường hợp conflict (đã có người sửa code sau khi mi đã pull về, đến lúc mình push lên lại thì sẽ gặp conflict)
+Cách xử lý: pull code về, nó sẽ hiện phần code của người khác code và của mình code, sau đó sửa code lại cho thích hợp(có thể xóa cái của họ đi @@) rồi commit lên bình thường
+
+-> Muốn xem lịch sử của file thay đổi như thế nào thì vào phần History mà xem
